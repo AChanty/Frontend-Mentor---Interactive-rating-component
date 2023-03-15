@@ -1,0 +1,94 @@
+.card {
+    background-color: rgb(25, 32, 42);
+    font-family: var(--font-base);
+    width: 87%;
+    margin: auto;
+    padding: 25px 25px 35px 25px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 475px;
+}
+
+.card__star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card__star-container img {
+    width: 14px;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+p {
+    color: var(--light-gray);
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.card__thanks__img {
+    width: 150px;
+    margin: 10px auto 25px auto;
+}
+
+.card__thanks__rating-text {
+    color: var(--color-button);
+    background-color: var(--dark-blue);
+    width: 170px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+@media screen and (min-width: 562px) {
+    .card {
+        padding: 30px 35px 30px 35px;
+    }
+
+    .card__star-container {
+        width: 50px;
+        height: 50px;
+    }
+
+    .card__star-container img {
+        width: 17px;
+    }
+
+    h1 {
+        font-weight: bold;
+        margin: 35px 0 13px 0;
+    }
+
+    p {
+        font-size: .985em;
+    }
+
+    .card__thanks__img {
+        width: 168px;
+        margin: 10px auto 35px auto;
+    }
+
+    .card__thanks__rating-text {
+        width: 200px;
+    }
+
+    .card__thanks__text {
+        margin: 0px auto 18px auto;
+    }
+}

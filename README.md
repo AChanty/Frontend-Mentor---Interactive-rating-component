@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot.jpg)
+![](./src/assets/screenshot.jpg)
 
 ### Links
 
--  Live Site URL: [https://achanty.github.io/Frontend-Mentor---Results-summary-component/](https://achanty.github.io/Frontend-Mentor---Results-summary-component/)
+-  Live Site URL: [https://frontend-mentor-interactive-rating-component-eta.vercel.app/](https://frontend-mentor-interactive-rating-component-eta.vercel.app/)
 
 ## My process
 

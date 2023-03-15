@@ -56,9 +56,9 @@ function Card() {
    )
 
    return (
-      <div className="card">
+      <main className="card">
          {!resultState ? ratingComponent : thanksComponent}
-      </div>
+      </main>
    )
 }
 
